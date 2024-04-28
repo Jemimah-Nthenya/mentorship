@@ -288,13 +288,14 @@ body{
       }
       #navbar ul{
         display: grid;
-        justify-content: space-around;
-        font-size: 20px;
+        /* justify-content: space-around; */
+        font-size: small;
+        margin-right: 300px;
        
         }
     #navbar li {
      /* display: inline-block; */
-     margin-top: 5px;  
+     /* margin-top: 5px;   */
                }
     #navbar{
         /* gap: 300px; */

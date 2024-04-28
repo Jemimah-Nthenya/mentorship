@@ -15,7 +15,7 @@ body{
         background-color: purple;
         display: grid;
         /* flex-wrap: wrap; */
-        width: 20px;
+        width: 50px;
 
     }
     h2{
@@ -35,5 +35,32 @@ body{
     #home p{
         /* margin-left: -10px; */
     }
+}
+@media screen and (min-width: 250px) and (max-width:1000px){
+    body{
+        background-color: purple;
+        display: grid;
+        /* flex-wrap: wrap; */
+        width: 50px;
+
+    }
+    h2{
+        /* font-size: 17px; */
+        /* margin-left: 10px; */
+    }
+    #home{
+        /* text-align: center; */
+        margin-left: 50px;
+    }
+    /* .lady img{
+        width: 80px;
+    } */
+    #home img{
+        width: 250px;
+        /* margin-left: 10px; */
+    }
+    #home p{
+        /* margin-left: -10px; */
+    }   
 }
     

@@ -55,6 +55,7 @@ body{
         display: grid;
         justify-content: space-around;
         font-size: small;
+        margin-right: 300px;
        
         }
     #navbar li {
