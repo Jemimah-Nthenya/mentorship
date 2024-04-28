@@ -1,0 +1,308 @@
+.todo-list{
+    width: 150%;
+    max-width: 540px;
+    background-color: #fff;
+    margin: 200px auto 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.todo-list1{
+    width: 150%;
+    max-width: 540px;
+    margin: 200px auto 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 30%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+#input-box{
+    flex: 1;
+    border: 1px solid;
+    background-color: transparent;
+}
+#form a{
+    text-decoration: none;
+  }
+  .container1{
+    color: aliceblue;
+    border: solid 1px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 15%;
+    background-color: purple;
+
+}
+.row{
+    margin-left: 30%;
+    background-color: rgb(219, 25, 193);
+padding: 10px;
+border-radius: 4px;
+justify-content: space-between;
+align-items: center;
+}
+.container{
+    border-radius: 12px;
+    width: 50%;
+    height: 70%;
+
+    
+}
+.achievements{
+    text-align: center;
+}
+#image1{
+    border-radius: 50%;
+}
+.achieve{
+    text-align: center;
+}
+#mentor{
+    text-align: center;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+#nyj{
+    color: aliceblue;
+}
+#sign{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#up{
+    margin-top: 9%;
+    margin-left: 15%;
+}
+#container2{
+    color: aliceblue;
+    border: solid;
+}
+#rest{
+    margin-left: 23%;
+}
+#rest a{
+    text-decoration: none;
+}
+#all{
+    text-align: center;
+}
+body{
+    height: 100vh;
+    background: purple;
+}
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+.task button{
+    background-color: #6583e5;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
+.todo-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  li {
+    padding: 10px;
+  }
+  #list{
+    text-align: center;
+  }
+  #navbar ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+   
+    }
+#navbar li {
+ display: inline-block;
+ margin-top: 5px;             }
+#navbar{
+    gap: 300px;
+}
+#nav-bar a{
+    text-decoration: none;
+    color:white}
+
+@media screen and (min-width: 250px) and (max-width:900px){
+    .todo-list{
+        width: 150%;
+        max-width: 540px;
+        background-color: #fff;
+        margin: 200px auto 20px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .todo-list1{
+        width: 320px;
+        /* max-width: 540px; */
+        /* margin: 200px auto 20px; */
+        padding: 10px;
+        border-radius: 10px;
+        background-color: white;
+        /* margin-right: 30px; */
+        /* margin-left: 20px; */
+        margin-top: 30px;
+    }
+  
+    .row{
+        display: grid;
+        align-items: center;
+        gap: 20px;
+        padding-left: 20px;
+        margin-bottom: 25px;
+        padding-left: 20px;
+    }
+    #input-box{
+        flex: 1;
+        border: 1px solid;
+        background-color: transparent;
+    }
+    #form a{
+        text-decoration: none;
+      }
+      .container1{
+        color: aliceblue;
+        border: solid 1px;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin-left: 35%;
+        margin-top: 15%;
+        background-color: purple;
+    
+    }
+    .row{
+        margin-left: 30%;
+        background-color: rgb(219, 25, 193);
+    padding: 10px;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .container{
+        border-radius: 12px;
+        width: 50%;
+        height: 70%;
+    
+        
+    }
+    .achievements{
+        text-align: center;
+    }
+    #image1{
+        border-radius: 50%;
+    }
+    .achieve{
+        text-align: center;
+    }
+    #mentor{
+        text-align: center;
+        margin-bottom: 10px;
+        color: aliceblue;
+    }
+    #nyj{
+        color: aliceblue;
+    }
+    #sign{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    #up{
+        margin-top: 9%;
+        margin-left: 15%;
+    }
+    #container2{
+        color: aliceblue;
+        border: solid;
+    }
+    #rest{
+        margin-left: 23%;
+    }
+    #rest a{
+        text-decoration: none;
+    }
+    #all{
+        text-align: center;
+    }
+    body{
+        height: 100vh;
+        background: purple;
+    }
+    .container{
+        width: 40%;
+        top: 50%;
+        left: 50%;
+        background: white;
+        border-radius: 10px;
+        min-width: 450px;
+        position: absolute;
+        min-height: 100px;
+        transform: translate(-50%,-50%);
+    }
+    .task button{
+        background-color: #6583e5;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        height: 100%;
+        width: 40px;
+        border-radius: 5px;
+    }
+    .todo-container {
+        display: flex;
+        flex-direction: row;
+      }
+      
+      li {
+        padding: 10px;
+      }
+      #list{
+        text-align: center;
+      }
+      #navbar ul{
+        display: grid;
+        justify-content: space-around;
+        font-size: 20px;
+       
+        }
+    #navbar li {
+     /* display: inline-block; */
+     margin-top: 5px;  
+               }
+    #navbar{
+        /* gap: 300px; */
+    }
+    #nav-bar a{
+        text-decoration: none;
+        color:white}
+    
+         
+    }
+
