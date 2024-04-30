@@ -390,7 +390,7 @@ body{
         text-decoration: none;
       }
       .todo-list{
-        width: 100%;
+        width: 95%;
         max-width: 540px;
         background-color: #fff;
         margin: 90px auto 20px;

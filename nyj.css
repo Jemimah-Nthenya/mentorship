@@ -6,6 +6,9 @@ body{
 }
 #sentence{
     color: white;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 #navbar ul{
     font-size: small;
@@ -20,8 +23,11 @@ body{
 #nav-bar a{
     text-decoration: none;
     color:white}
+.all{
+    overflow-x: hidden;
+}
 
-@media screen and (max-width: 650px){
+    @media screen and (min-width: 250px) and (max-width:900px){
     #nyj{
         color: aliceblue;
     }
@@ -30,5 +36,18 @@ body{
     }
     #sentence{
         color: white;
-    }  
+            text-align: center;
+             /* margin-left: 50px; */
+            /* margin-right: 50px; */
+        
+    } 
+    #sentence img{
+        margin-right: 700px; 
+        
+        /* margin-left: 100px;  */
+    }
+    #sentence p{
+        /* font-size: x-large; */
+    }
+     
 }
